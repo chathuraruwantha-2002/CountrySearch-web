@@ -1,0 +1,32 @@
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 123, 255, 0.4);
+}
+
+.card:hover .card-img-top {
+    opacity: 0.8;
+}
+
+
+#searchInput {
+    transition: all 0.3s ease;
+}
+
+
+#searchInput:hover {
+    border-color: #0291e9d8;
+    background-color: #f1f1f1;
+    box-shadow: 0 4px 6px rgba(100, 134, 170, 0.3);
+}
+
+
+#searchInput:focus {
+    border-color: #007bff;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 123, 255, 0.3);
+}
+
